@@ -1,0 +1,42 @@
+{
+  "name": "FORGE — Workout Tracker",
+  "short_name": "FORGE",
+  "description": "Your personal gym workout tracker — log exercises, track attendance, and monitor weight progress.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "scope": "./",
+  "categories": ["fitness", "health", "sports"],
+  "icons": [
+    {
+      "src": "./icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Today's Workout",
+      "short_name": "Today",
+      "description": "Jump to today's exercise list",
+      "url": "./index.html#home"
+    },
+    {
+      "name": "Attendance",
+      "short_name": "Gym Log",
+      "description": "Mark gym attendance",
+      "url": "./index.html#attendance"
+    }
+  ]
+}
